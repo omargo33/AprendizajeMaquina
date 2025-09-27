@@ -54,7 +54,8 @@ htmlcov/
 .ipynb_hidden_files/
 
 # Quarto / sitios estáticos / cachés de render
-# No ignorar las carpetas de salida si publicas los archivos estáticos en GitHub Pages sin CI
+# Comentar la siguiente línea si quieres que _site se suba a GitHub
+# _site/
 _cache/
 .quarto/
 .quarto-cache/
