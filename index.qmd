@@ -1,0 +1,48 @@
+---
+title: "TEST de reprrte"
+author: "omargo33"
+date: "2025-19-25"
+abstract: "Este es un primer reporte usando quarto"
+auto-play-media: true
+language: {}
+format: 
+    html:
+        embed-resources: true
+---
+
+# Hola mundo
+
+```{python}
+import sys
+``` 
+```{python}
+print(sys.executable)
+```
+
+```{python}
+pip install altair>=4.2.0 vega_datasets>=0.9.0
+```
+
+## importar
+```{python}
+
+
+import altair as alt
+from vega_datasets import data
+
+cars = data.cars()
+print(cars.head())
+
+
+```
+
+
+## Hola Ecuador
+```{python}
+
+for i in range(10):
+    print(f"elemento {i}")
+
+```
+
+### Otro subtitulo
