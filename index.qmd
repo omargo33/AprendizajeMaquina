@@ -27,8 +27,8 @@ pip install altair>=4.2.0 vega_datasets>=0.9.0
 
 
 ```{python}
-import altair as alt
-alt.data_transformers.enable('json')
+##import altair as alt
+##alt.data_transformers.enable('json')
 ```
 
 ## importar
