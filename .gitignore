@@ -1,4 +1,4 @@
- 
+
 # .gitignore para Quarto + Python
 
 # Sistema / SO
@@ -77,3 +77,5 @@ _cache/
 tmp/
 tmp-*/
 *.log
+/.quarto/
+**/*.quarto_ipynb
