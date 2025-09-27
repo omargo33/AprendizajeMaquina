@@ -1,0 +1,84 @@
+ 
+# .gitignore para Quarto + Python
+
+# Sistema / SO
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python: bytecode, caches, entornos virtuales
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+*.whl
+
+# Entornos virtuales comunes
+.env
+.venv/
+venv/
+env/
+ENV/
+venv.bak/
+
+# Herramientas de prueba / cobertura / cachés
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Cachés y análisis estático
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Paquetes/instaladores
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.spec
+
+# Jupyter
+.ipynb_checkpoints/
+*.nb.html
+.ipynb_hidden_files/
+
+# Quarto / sitios estáticos / cachés de render
+_site/
+_site_libs/
+_book/
+_cache/
+.quarto/
+.quarto-cache/
+
+# Archivos de salida comunes (HTML/PDF/LaTeX) - opcional
+*.html
+*.pdf
+*.tex
+
+# R (si se usa junto con Quarto)
+.Rhistory
+.RData
+.Rproj.user
+
+# IDEs / editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Otros
+.cache/
+tmp/
+tmp-*/
+*.log
